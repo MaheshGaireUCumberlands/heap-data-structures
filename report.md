@@ -85,3 +85,11 @@ Files created by benchmarking:
 
 If you want, I can insert selected figures and numeric tables directly
 into this report as PNGs or render the plot inline (PDF/HTML output).
+
+### Embedded plot
+
+The following figure visualizes the benchmark results (means with error
+bars). It is saved in the repository at `benchmarks/plots.png` and is
+rendered below for convenience.
+
+![Benchmark runtimes (means ± stddev)](benchmarks/plots.png)
