@@ -1,0 +1,15 @@
+
+Distribution: random
+n=1000: heapsort=0.0027s quicksort=0.0016s merge=0.0021s timsort=0.0001s
+n=5000: heapsort=0.0173s quicksort=0.0091s merge=0.0116s timsort=0.0007s
+n=10000: heapsort=0.0376s quicksort=0.0189s merge=0.0249s timsort=0.0014s
+
+Distribution: sorted
+n=1000: heapsort=0.0029s quicksort=0.0012s merge=0.0014s timsort=0.0000s
+n=5000: heapsort=0.0182s quicksort=0.0070s merge=0.0075s timsort=0.0000s
+n=10000: heapsort=0.0398s quicksort=0.0149s merge=0.0157s timsort=0.0001s
+
+Distribution: reversed
+n=1000: heapsort=0.0025s quicksort=0.0011s merge=0.0014s timsort=0.0000s
+n=5000: heapsort=0.0161s quicksort=0.0070s merge=0.0079s timsort=0.0000s
+n=10000: heapsort=0.0352s quicksort=0.0150s merge=0.0167s timsort=0.0001s
